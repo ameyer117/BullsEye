@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		70576B9F273AB45200B9BC3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70576B9E273AB45200B9BC3B /* AppDelegate.swift */; };
 		70576BA1273AB45200B9BC3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70576BA0273AB45200B9BC3B /* SceneDelegate.swift */; };
-		70576BA3273AB45200B9BC3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70576BA2273AB45200B9BC3B /* ViewController.swift */; };
+		70576BA3273AB45200B9BC3B /* HitMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70576BA2273AB45200B9BC3B /* HitMeViewController.swift */; };
 		70576BA6273AB45200B9BC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70576BA4273AB45200B9BC3B /* Main.storyboard */; };
 		70576BA8273AB45300B9BC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70576BA7273AB45300B9BC3B /* Assets.xcassets */; };
 		70576BAB273AB45300B9BC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70576BA9273AB45300B9BC3B /* LaunchScreen.storyboard */; };
 		70576BB6273AB45300B9BC3B /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70576BB5273AB45300B9BC3B /* BullseyeTests.swift */; };
 		70576BC0273AB45300B9BC3B /* BullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70576BBF273AB45300B9BC3B /* BullseyeUITests.swift */; };
 		70576BC2273AB45300B9BC3B /* BullseyeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70576BC1273AB45300B9BC3B /* BullseyeUITestsLaunchTests.swift */; };
+		70576BD2273B51B200B9BC3B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70576BD1273B51B200B9BC3B /* AboutViewController.swift */; };
+		70576BD4273B589600B9BC3B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 70576BD3273B589600B9BC3B /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		70576B9B273AB45200B9BC3B /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70576B9E273AB45200B9BC3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70576BA0273AB45200B9BC3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70576BA2273AB45200B9BC3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70576BA2273AB45200B9BC3B /* HitMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitMeViewController.swift; sourceTree = "<group>"; };
 		70576BA5273AB45200B9BC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70576BA7273AB45300B9BC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70576BAA273AB45300B9BC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		70576BBB273AB45300B9BC3B /* BullseyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70576BBF273AB45300B9BC3B /* BullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeUITests.swift; sourceTree = "<group>"; };
 		70576BC1273AB45300B9BC3B /* BullseyeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70576BD1273B51B200B9BC3B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		70576BD3273B589600B9BC3B /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				70576B9E273AB45200B9BC3B /* AppDelegate.swift */,
 				70576BA0273AB45200B9BC3B /* SceneDelegate.swift */,
-				70576BA2273AB45200B9BC3B /* ViewController.swift */,
+				70576BA2273AB45200B9BC3B /* HitMeViewController.swift */,
 				70576BA4273AB45200B9BC3B /* Main.storyboard */,
 				70576BA7273AB45300B9BC3B /* Assets.xcassets */,
 				70576BA9273AB45300B9BC3B /* LaunchScreen.storyboard */,
 				70576BAC273AB45300B9BC3B /* Info.plist */,
+				70576BD1273B51B200B9BC3B /* AboutViewController.swift */,
+				70576BD3273B589600B9BC3B /* BullsEye.html */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70576BAB273AB45300B9BC3B /* LaunchScreen.storyboard in Resources */,
+				70576BD4273B589600B9BC3B /* BullsEye.html in Resources */,
 				70576BA8273AB45300B9BC3B /* Assets.xcassets in Resources */,
 				70576BA6273AB45200B9BC3B /* Main.storyboard in Resources */,
 			);
@@ -258,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70576BA3273AB45200B9BC3B /* ViewController.swift in Sources */,
+				70576BA3273AB45200B9BC3B /* HitMeViewController.swift in Sources */,
 				70576B9F273AB45200B9BC3B /* AppDelegate.swift in Sources */,
+				70576BD2273B51B200B9BC3B /* AboutViewController.swift in Sources */,
 				70576BA1273AB45200B9BC3B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,9 +450,12 @@
 				DEVELOPMENT_TEAM = F5UN3Z7X2P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bullseye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,9 +481,12 @@
 				DEVELOPMENT_TEAM = F5UN3Z7X2P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bullseye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
